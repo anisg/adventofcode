@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode",
+  "scripts": {
+    "solve": "sh solve.sh"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  }
+}
