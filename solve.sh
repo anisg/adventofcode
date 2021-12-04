@@ -20,4 +20,6 @@ if ! is_puzzle_existing $1
     fail "the puzzle $1 does not exist (yet!)"
 fi
 
-cat ./data/puzzle$1.txt | ts-node ./puzzle$1$2.ts
+PUZZLE_NUM=${1//_v2/}
+
+cat ./data/input$PUZZLE_NUM.txt | ts-node ./puzzle$1.ts
